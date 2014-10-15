@@ -1,3 +1,4 @@
+<?
 namespace Album;
 
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
@@ -24,3 +25,4 @@ class Module implements AutoloaderProviderInterface, ConfigProviderInterface
         return include __DIR__ . '/config/module.config.php';
     }
 }
+?>
