@@ -7,7 +7,6 @@ use Zend\ModuleManager\Feature\ConfigProviderInterface;
 class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 {
 
-    const lowercased_consts_are_cool = 1;
 
     public function smell()
     {
@@ -49,8 +48,9 @@ class Module implements AutoloaderProviderInterface, ConfigProviderInterface
     {
     }
 
-    public function aVeryLongMethodNameThatDrivesPeopleCrazyIfTheyDontAutocompleteWhenTyping() {
-      return eval("echo 42");
+    public function aVeryLongMethodNameThatDrivesPeopleCrazyIfTheyDontAutocompleteWhenTyping()
+    {
+      eval("echo 42");
     }
 
     public function getAutoloaderConfig()
