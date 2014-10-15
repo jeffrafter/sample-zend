@@ -7,6 +7,7 @@ use Zend\ModuleManager\Feature\ConfigProviderInterface;
 class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 {
 
+    const lowercased_consts_are_cool = 1;
 
     public function smell()
     {
