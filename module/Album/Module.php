@@ -4,6 +4,8 @@ namespace Album;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
+define('small_value', '0.0');
+
 class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 {
 
