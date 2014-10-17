@@ -24,11 +24,12 @@ class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 
     public function b($p1, $p2, $p3, $p4, $p5, $p6, $p7)
     {
-      return "";
+        return "";
     }
 
     public function c()
     {
+        return $_SERVER["get_a_super_global"];
     }
 
     public function d()
