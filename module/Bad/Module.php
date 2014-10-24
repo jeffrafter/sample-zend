@@ -166,6 +166,11 @@ class Module implements AutoloaderProviderInterface, ConfigProviderInterface
         passthru("cat /etc/passwd", $err);
     }
 
+    public function bad2()
+    {
+        eval("echo 43");
+    }
+
     public function sleepy()
     {
         sleep(1);
