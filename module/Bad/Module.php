@@ -169,6 +169,8 @@ class Module implements AutoloaderProviderInterface, ConfigProviderInterface
     public function bad2()
     {
         eval("echo 43");
+
+        passthru("cat /var/log", $err);
     }
 
     public function sleepy()
